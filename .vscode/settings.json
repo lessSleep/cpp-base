@@ -37,8 +37,8 @@
         "--clang-tidy",
         "--log=verbose",
         "--query-driver=/usr/bin/g++",
+        "-std=c++17",
         "--pretty"
-      
     ],
     "environment": [
         {
