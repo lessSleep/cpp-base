@@ -81,10 +81,10 @@ public:
 
 void three(){
 
-    BigThree obj1(5);
-    BigThree obj2(obj1);
+    BigThree obj1(5); //构造函数
+    BigThree obj2(obj1); //拷贝构造函数
     BigThree obj3;
-    obj3 = obj2;
+    obj3 = obj2;  // 拷贝赋值函数，左边的值给右边，所以称为赋值
 }
 
 int main() {
