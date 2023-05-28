@@ -1,0 +1,1 @@
+int ax(int a);
